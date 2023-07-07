@@ -15,7 +15,7 @@ class App {
   static enemy;
 
   static init() {
-    this.grid = new Grid(10, 10);
+    this.grid = new Grid(120, 60);
     this.player = new Player(0, 1, 100);
     this.npc = new NPC(0, 0, 100);
     // Place the NPC at a random position on the grid
@@ -34,6 +34,7 @@ class App {
   }
 
   static handleArrowKey(event) {
+    /*
     const { key } = event;
     let newX = this.player.x;
     let newY = this.player.y;
@@ -84,6 +85,7 @@ class App {
         }
       }
     }
+    */
   }
 
   static placeNPC() {
@@ -170,6 +172,9 @@ typeText();
     this.grid.setCell(8, 2, 2);
     this.grid.setCell(9, 0, 2);
     this.grid.setCell(9, 4, 1);
+    this.grid.setCell(10, 4, 1);
+    this.grid.setCell(11, 4, 1);
+    this.grid.setCell(12, 4, 1);
 
     this.gridElement.addEventListener("click", (event) => {
       this.handleGridClick(event);

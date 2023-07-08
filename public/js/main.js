@@ -1168,6 +1168,159 @@ typeText();
     this.grid.setCell(110, 22, 1);
     this.grid.setCell(111, 22, 1);
     this.grid.setCell(112, 22, 1);
+
+    this.grid.setCell(18, 23, 1);
+    this.grid.setCell(19, 23, 1);
+    this.grid.setCell(20, 23, 1);
+    this.grid.setCell(21, 23, 1);
+    this.grid.setCell(22, 23, 1);
+    this.grid.setCell(23, 23, 1);
+    this.grid.setCell(24, 23, 1);
+    this.grid.setCell(25, 23, 1);
+    this.grid.setCell(26, 23, 1);
+    this.grid.setCell(27, 23, 1);
+    this.grid.setCell(28, 23, 1);
+    this.grid.setCell(29, 23, 1);
+    this.grid.setCell(30, 23, 1);
+    this.grid.setCell(31, 23, 1);
+    this.grid.setCell(32, 23, 1);
+
+    this.grid.setCell(35, 23, 1);
+    this.grid.setCell(36, 23, 1);
+    this.grid.setCell(37, 23, 1);
+    this.grid.setCell(38, 23, 1);
+    this.grid.setCell(39, 23, 1);
+
+    this.grid.setCell(54, 23, 1);
+
+    this.grid.setCell(56, 23, 1);
+    this.grid.setCell(57, 23, 1);
+
+    this.grid.setCell(60, 23, 1);
+
+    this.grid.setCell(62, 23, 1);
+
+    this.grid.setCell(64, 23, 1);
+    this.grid.setCell(65, 23, 1);
+    this.grid.setCell(66, 23, 1);
+    this.grid.setCell(67, 23, 1);
+    this.grid.setCell(68, 23, 1);
+    this.grid.setCell(69, 23, 1);
+    this.grid.setCell(70, 23, 1);
+    this.grid.setCell(71, 23, 1);
+    this.grid.setCell(72, 23, 1);
+    this.grid.setCell(73, 23, 1);
+    this.grid.setCell(74, 23, 1);
+    this.grid.setCell(75, 23, 1);
+    this.grid.setCell(76, 23, 1);
+    this.grid.setCell(77, 23, 1);
+    this.grid.setCell(78, 23, 1);
+    this.grid.setCell(79, 23, 1);
+    this.grid.setCell(80, 23, 1);
+    this.grid.setCell(81, 23, 1);
+    this.grid.setCell(82, 23, 1);
+    this.grid.setCell(83, 23, 1);
+    this.grid.setCell(84, 23, 1);
+    this.grid.setCell(85, 23, 1);
+    this.grid.setCell(86, 23, 1);
+    this.grid.setCell(87, 23, 1);
+    this.grid.setCell(88, 23, 1);
+    this.grid.setCell(89, 23, 1);
+    this.grid.setCell(90, 23, 1);
+    this.grid.setCell(91, 23, 1);
+    this.grid.setCell(92, 23, 1);
+    this.grid.setCell(93, 23, 1);
+    this.grid.setCell(94, 23, 1);
+    this.grid.setCell(95, 23, 1);
+    this.grid.setCell(96, 23, 1);
+    this.grid.setCell(97, 23, 1);
+    this.grid.setCell(98, 23, 1);
+    this.grid.setCell(99, 23, 1);
+    this.grid.setCell(100, 23, 1);
+    this.grid.setCell(101, 23, 1);
+    this.grid.setCell(102, 23, 1);
+    this.grid.setCell(103, 23, 1);
+
+    this.grid.setCell(106, 23, 1);
+    this.grid.setCell(107, 23, 1);
+    this.grid.setCell(108, 23, 1);
+    this.grid.setCell(109, 23, 1);
+    this.grid.setCell(110, 23, 1);
+    this.grid.setCell(111, 23, 1);
+
+    this.grid.setCell(19, 24, 1);
+    this.grid.setCell(20, 24, 1);
+    this.grid.setCell(21, 24, 1);
+    this.grid.setCell(22, 24, 1);
+    this.grid.setCell(23, 24, 1);
+    this.grid.setCell(24, 24, 1);
+    this.grid.setCell(25, 24, 1);
+    this.grid.setCell(26, 24, 1);
+    this.grid.setCell(27, 24, 1);
+    this.grid.setCell(28, 24, 1);
+    this.grid.setCell(29, 24, 1);
+    this.grid.setCell(30, 24, 1);
+    this.grid.setCell(31, 24, 1);
+    this.grid.setCell(32, 24, 1);
+
+    this.grid.setCell(34, 24, 1);
+    this.grid.setCell(35, 24, 1);
+    this.grid.setCell(36, 24, 1);
+    this.grid.setCell(37, 24, 1);
+    this.grid.setCell(38, 24, 1);
+
+    this.grid.setCell(40, 24, 1);
+
+    this.grid.setCell(54, 24, 1);
+
+    this.grid.setCell(56, 24, 1);
+
+    this.grid.setCell(59, 24, 1);
+    this.grid.setCell(60, 24, 1);
+    this.grid.setCell(61, 24, 1);
+    this.grid.setCell(62, 24, 1);
+    this.grid.setCell(63, 24, 1);
+    this.grid.setCell(64, 24, 1);
+    this.grid.setCell(65, 24, 1);
+    this.grid.setCell(66, 24, 1);
+    this.grid.setCell(67, 24, 1);
+    this.grid.setCell(68, 24, 1);
+    this.grid.setCell(69, 24, 1);
+    this.grid.setCell(70, 24, 1);
+    this.grid.setCell(71, 24, 1);
+    this.grid.setCell(72, 24, 1);
+    this.grid.setCell(73, 24, 1);
+    this.grid.setCell(74, 24, 1);
+    this.grid.setCell(75, 24, 1);
+    this.grid.setCell(76, 24, 1);
+    this.grid.setCell(77, 24, 1);
+    this.grid.setCell(78, 24, 1);
+    this.grid.setCell(79, 24, 1);
+    this.grid.setCell(80, 24, 1);
+    this.grid.setCell(81, 24, 1);
+    this.grid.setCell(82, 24, 1);
+    this.grid.setCell(83, 24, 1);
+    this.grid.setCell(84, 24, 1);
+    this.grid.setCell(85, 24, 1);
+    this.grid.setCell(86, 24, 1);
+    this.grid.setCell(87, 24, 1);
+    this.grid.setCell(88, 24, 1);
+    this.grid.setCell(89, 24, 1);
+    this.grid.setCell(90, 24, 1);
+    this.grid.setCell(91, 24, 1);
+    this.grid.setCell(92, 24, 1);
+    this.grid.setCell(93, 24, 1);
+    this.grid.setCell(94, 24, 1);
+    this.grid.setCell(95, 24, 1);
+    this.grid.setCell(96, 24, 1);
+    this.grid.setCell(97, 24, 1);
+    this.grid.setCell(98, 24, 1);
+    this.grid.setCell(99, 24, 1);
+    this.grid.setCell(100, 24, 1);
+    
+    this.grid.setCell(105, 24, 1);
+    this.grid.setCell(106, 24, 1);
+    this.grid.setCell(107, 24, 1);
   }
 
   static displayGrid(targetX = -1, targetY = -1, direction = "") {

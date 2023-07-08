@@ -39,15 +39,17 @@ body {
 }
 
 .cell {
-  border: 1px solid var(--dark-slate-gray);  
-  background-color: var(--dark-olive-green); 
-
-  background-color: #444;
+  background-color: var(--purple); 
   color: #fff;
   border-radius: 5px;
   padding: 5px;
   font-size: 5px;
 }
+
+.cell:hover {
+  background-color: var(--pink); 
+}
+
 
 .cell-solid.water {
 

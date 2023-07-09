@@ -1,6 +1,6 @@
 import Version from "./utils/version.js";
 import Grid from "./core/grid.js";
-import GridCreator from "./core/gridCreator.js";
+import Globe from "./core/globe.js";
 
 class App {
   static grid;
@@ -10,7 +10,7 @@ class App {
   static init() {
     this.grid = new Grid(120, 60);
     this.gridElement = document.querySelector(".grid");
-    this.createGrid();
+    this.createGlobe();
     this.displayGrid();
     this.updateVersionText();
   }
@@ -25,8 +25,8 @@ class App {
     document.title = `Version ${version}`;
   }
 
-  static createGrid() {
-    GridCreator.createGrid(this.grid);
+  static createGlobe() {
+    Globe.createGlobe(this.grid);
   }
 
   static displayGrid(targetX = -1, targetY = -1, direction = "") {

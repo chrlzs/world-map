@@ -67,6 +67,8 @@ class App {
           const clickedX = parseInt(cellElement.dataset.x);
           const clickedY = parseInt(cellElement.dataset.y);
           console.log(`Clicked cell coordinates: (${clickedX}, ${clickedY})`);
+
+          cellElement.classList.add("red");
         });
 
         this.gridElement.appendChild(cellElement);

@@ -26,20 +26,6 @@ class Grid {
     return false;
   }
 
-  isFlora(x, y) {
-    if (this.isValidPosition(x, y)) {
-      return this.cells[y][x] === 1;
-    }
-    return false;
-  }
-
-  isWater(x, y) {
-    if (this.isValidPosition(x, y)) {
-      return this.cells[y][x] === 2;
-    }
-    return false;
-  }
-
   isValidPosition(x, y) {
     return x >= 0 && x < this.width && y >= 0 && y < this.height;
   }

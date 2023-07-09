@@ -62,6 +62,13 @@ class App {
           cellElement.appendChild(glyphElement);
         }
 
+        // Add click event listener to each cell element
+        cellElement.addEventListener("click", () => {
+          const clickedX = parseInt(cellElement.dataset.x);
+          const clickedY = parseInt(cellElement.dataset.y);
+          console.log(`Clicked cell coordinates: (${clickedX}, ${clickedY})`);
+        });
+
         this.gridElement.appendChild(cellElement);
       }
     }

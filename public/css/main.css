@@ -68,7 +68,7 @@ body {
   background-color: pink;
 }
 
-.cell.red {
+.cell.selected {
   background-color:red;
 }
 

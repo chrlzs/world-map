@@ -66,9 +66,9 @@ class App {
         cellElement.addEventListener("click", () => {
           const clickedX = parseInt(cellElement.dataset.x);
           const clickedY = parseInt(cellElement.dataset.y);
-          console.log(`Clicked cell coordinates: (${clickedX}, ${clickedY})`);
-
-          cellElement.classList.add("red");
+          //console.log(`Clicked cell coordinates: (${clickedX}, ${clickedY})`);
+          console.log(clickedX + "," + clickedY);
+          cellElement.classList.add("selected");
         });
 
         this.gridElement.appendChild(cellElement);

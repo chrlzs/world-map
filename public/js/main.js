@@ -13,6 +13,14 @@ class App {
     this.createGlobe();
     this.displayGrid();
     this.updateVersionText();
+    this.highlightUSA();
+  }
+
+  static highlightUSA() {
+    var states = Globe.getUnitedStates();
+    states.forEach(cell => {
+      this.grid.addClassToCell(cell.at(0), cell.at(1), "selected");
+    });
   }
 
   static updateVersionText() {

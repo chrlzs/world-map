@@ -43,8 +43,8 @@ class App {
           cellElement.classList.add("cell-solid");
         }
 
-        if (this.grid.isFlora(x, y)) {
-          cellElement.classList.add("flora");
+        if (this.grid.isLand(x, y)) {
+          cellElement.classList.add("land");
         }
 
         if (this.grid.isWater(x, y)) {

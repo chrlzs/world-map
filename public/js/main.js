@@ -19,7 +19,7 @@ class App {
   static highlightUSA() {
     var states = Globe.getUnitedStates();
     states.forEach(cell => {
-      this.grid.addClassToCell(cell.at(0), cell.at(1), "selected");
+      this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-usa");
     });
   }
 

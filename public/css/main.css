@@ -72,6 +72,11 @@ body {
   background-color:red;
 }
 
+.cell.cell-usa {
+  background-color:greenyellow;
+}
+
+
 .cell-enemy {
   background-color:yellow;
 }

@@ -76,6 +76,9 @@ body {
   background-color:greenyellow;
 }
 
+.cell.cell-canada {
+  background-color:lightskyblue;
+}
 
 .cell-enemy {
   background-color:yellow;

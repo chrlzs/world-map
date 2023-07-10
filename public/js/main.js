@@ -14,12 +14,20 @@ class App {
     this.displayGrid();
     this.updateVersionText();
     this.highlightUSA();
+    this.highlightCanada();
   }
 
   static highlightUSA() {
     var states = Globe.getUnitedStates();
     states.forEach(cell => {
       this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-usa");
+    });
+  }
+
+  static highlightCanada() {
+    var states = Globe.getCanada();
+    states.forEach(cell => {
+      this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-canada");
     });
   }
 

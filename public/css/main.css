@@ -80,6 +80,10 @@ body {
   background-color:lightskyblue;
 }
 
+.cell.cell-greenland {
+  background-color:lightpink;
+}
+
 .cell-enemy {
   background-color:yellow;
 }

@@ -15,6 +15,7 @@ class App {
     this.updateVersionText();
     this.highlightUSA();
     this.highlightCanada();
+    this.highlightGreenland();
   }
 
   static highlightUSA() {
@@ -28,6 +29,13 @@ class App {
     var states = Globe.getCanada();
     states.forEach(cell => {
       this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-canada");
+    });
+  }
+
+  static highlightGreenland() {
+    var states = Globe.getGreenland();
+    states.forEach(cell => {
+      this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-greenland");
     });
   }
 

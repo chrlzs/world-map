@@ -4,65 +4,44 @@ import Globe from "./core/globe.js";
 
 class App {
   static grid;
-
   static gridElement;
 
   static init() {
-    this.grid = new Grid(120, 60);
-    this.gridElement = document.querySelector(".grid");
+    this.initializeGrid();
     this.createGlobe();
     this.displayGrid();
     this.updateVersionText();
-    this.highlightUSA();
-    this.highlightCanada();
-    this.highlightGreenland();
-    this.highlightIceland();
-    this.highlightPortugal();
+    this.highlightRegions();
   }
 
-  static highlightUSA() {
-    var states = Globe.getUnitedStates();
+  static initializeGrid() {
+    this.grid = new Grid(120, 60);
+    this.gridElement = document.querySelector(".grid");
+  }
+
+  static highlightRegions() {
+    this.highlightRegion("UnitedStates", "cell-usa");
+    this.highlightRegion("Canada", "cell-canada");
+    this.highlightRegion("Greenland", "cell-greenland");
+    this.highlightRegion("Iceland", "cell-iceland");
+    this.highlightRegion("Portugal", "cell-portugal");
+  }
+  
+  static highlightRegion(region, className) {
+    const states = Globe[`get${region}`]();
     states.forEach(cell => {
-      this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-usa");
+      const [x, y] = cell; // Extract the coordinates from the cell
+      this.grid.addClassToCell(x, y, className);
     });
   }
-
-  static highlightCanada() {
-    var states = Globe.getCanada();
-    states.forEach(cell => {
-      this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-canada");
-    });
-  }
-
-  static highlightGreenland() {
-    var states = Globe.getGreenland();
-    states.forEach(cell => {
-      this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-greenland");
-    });
-  }
-
-  static highlightIceland() {
-    var states = Globe.getIceland();
-    states.forEach(cell => {
-      this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-iceland");
-    });
-  }
-
-  static highlightPortugal() {
-    var states = Globe.getPortugal();
-    states.forEach(cell => {
-      this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-portugal");
-    });
-  }
-
-
+  
 
   static updateVersionText() {
-    let ver = new Version();
-    let version = ver.getVersion();
+    const ver = new Version();
+    const version = ver.getVersion();
     this.setPageTitle(version);
   }
-
+  
   static setPageTitle(version) {
     document.title = `World Map: Version ${version}`;
   }
@@ -94,21 +73,15 @@ class App {
         }
 
         if (x === targetX && y === targetY) {
-          // Add a glyph element to represent the center of the selected tile
           const glyphElement = document.createElement("div");
           glyphElement.className = "glyph";
-
-          // Set the direction class for the glyph element
           glyphElement.classList.add(`cell-entity-${direction}`);
-
           cellElement.appendChild(glyphElement);
         }
 
-        // Add click event listener to each cell element
         cellElement.addEventListener("click", () => {
           const clickedX = parseInt(cellElement.dataset.x);
           const clickedY = parseInt(cellElement.dataset.y);
-          //console.log(`Clicked cell coordinates: (${clickedX}, ${clickedY})`);
           console.log(clickedX + "," + clickedY);
           cellElement.classList.add("selected");
         });
@@ -116,12 +89,13 @@ class App {
         this.gridElement.appendChild(cellElement);
       }
     }
-    //TODO: Remove - these methods are just validating usage
+
     this.grid.addClassToCell(2, 3, "highlight");
     this.grid.setCellDataAttribute(2, 3, "test", "ABC");
+
   }
 }
 
-document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener("DOMContentLoaded", () => {
   App.init();
 });

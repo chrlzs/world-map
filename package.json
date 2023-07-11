@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/chrlzs/vanilla-styles#readme",
   "dependencies": {
-    "express": "^4.18.2",
-    "@harnessio/ff-javascript-client-sdk": "^1.4.10"
+    "express": "^4.18.2"
   }
 }

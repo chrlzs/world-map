@@ -84,6 +84,10 @@ body {
   background-color:lightpink;
 }
 
+.cell.cell-iceland {
+  background-color: lightgreen;
+}
+
 .cell-enemy {
   background-color:yellow;
 }

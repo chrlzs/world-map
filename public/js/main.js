@@ -17,6 +17,7 @@ class App {
     this.highlightCanada();
     this.highlightGreenland();
     this.highlightIceland();
+    this.highlightPortugal();
   }
 
   static highlightUSA() {
@@ -46,6 +47,14 @@ class App {
       this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-iceland");
     });
   }
+
+  static highlightPortugal() {
+    var states = Globe.getPortugal();
+    states.forEach(cell => {
+      this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-portugal");
+    });
+  }
+
 
 
   static updateVersionText() {

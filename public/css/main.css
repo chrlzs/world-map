@@ -88,6 +88,10 @@ body {
   background-color: lightgreen;
 }
 
+.cell.cell-portugal {
+  background-color: lightcoral;
+}
+
 .cell-enemy {
   background-color:yellow;
 }

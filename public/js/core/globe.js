@@ -3059,6 +3059,13 @@ class Globe {
       [59,16]
     ]
   }
+
+  static getPortugal() {
+    return [
+      [54,23],
+      [54,24]
+    ]
+  }
 }
 
 export { Globe as default };

@@ -64,7 +64,7 @@ class App {
   }
 
   static setPageTitle(version) {
-    document.title = `Version ${version}`;
+    document.title = `World Map: Version ${version}`;
   }
 
   static createGlobe() {

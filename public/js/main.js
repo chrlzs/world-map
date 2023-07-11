@@ -39,6 +39,14 @@ class App {
     });
   }
 
+  static highlightIceland() {
+    var states = Globe.getIceland();
+    states.forEach(cell => {
+      this.grid.addClassToCell(cell.at(0), cell.at(1), "cell-iceland");
+    });
+  }
+
+
   static updateVersionText() {
     let ver = new Version();
     let version = ver.getVersion();

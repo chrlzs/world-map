@@ -3050,7 +3050,7 @@ class Globe {
     ]
   }
 
-  static getGreenland() {
+  static getIceland() {
     return [
       [57,15],
       [58,15],

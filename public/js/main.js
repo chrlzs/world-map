@@ -16,6 +16,7 @@ class App {
     this.highlightUSA();
     this.highlightCanada();
     this.highlightGreenland();
+    this.highlightIceland();
   }
 
   static highlightUSA() {

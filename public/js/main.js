@@ -25,6 +25,7 @@ class App {
     this.highlightRegion("Greenland", "cell-greenland");
     this.highlightRegion("Iceland", "cell-iceland");
     this.highlightRegion("Portugal", "cell-portugal");
+    this.highlightRegion("UnitedKingdom", "cell-united-kingdom");
   }
   
   static highlightRegion(region, className) {
@@ -33,6 +34,7 @@ class App {
       const [x, y] = cell; // Extract the coordinates from the cell
       this.grid.addClassToCell(x, y, className);
     });
+  
   }
   
 

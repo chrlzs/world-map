@@ -3066,6 +3066,18 @@ class Globe {
       [54,24]
     ]
   }
+
+  static getUnitedKingdom() {
+    return [
+      [55, 21],
+      [56, 21],
+      [56, 22],
+      [57, 22],
+      [57, 23],
+      [56, 23],
+      [56, 24]
+    ]
+  }
 }
 
 export { Globe as default };

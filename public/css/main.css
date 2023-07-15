@@ -97,6 +97,11 @@ body {
   background-color: lightcyan;
 }
 
+
+.cell.cell-norway {
+  background-color: lightslategray
+}
+
 .cell-enemy {
   background-color:yellow;
 }

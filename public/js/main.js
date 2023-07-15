@@ -24,7 +24,7 @@ class App {
     this.highlightRegion("Canada", "cell-canada");
     this.highlightRegion("Greenland", "cell-greenland");
     this.highlightRegion("Iceland", "cell-iceland");
-    this.highlightRegion("Portugal", "cell-portugal");
+    this.highlightRegion("Ireland", "cell-ireland");
     this.highlightRegion("UnitedKingdom", "cell-united-kingdom");
   }
   

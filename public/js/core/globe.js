@@ -3060,7 +3060,7 @@ class Globe {
     ]
   }
 
-  static getPortugal() {
+  static getIreland() {
     return [
       [54,23],
       [54,24]

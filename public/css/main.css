@@ -105,6 +105,10 @@ body {
   background-color: lightgoldenrodyellow;
 }
 
+.cell.cell-finland {
+  background-color: lightseagreen;
+}
+
 .cell-enemy {
   background-color:yellow;
 }

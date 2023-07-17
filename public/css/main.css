@@ -109,6 +109,9 @@ body {
   background-color: lightseagreen;
 }
 
+.cell.cell-estonia {
+  background-color: lightyellow;
+}
 .cell-enemy {
   background-color:yellow;
 }

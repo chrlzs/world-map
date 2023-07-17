@@ -3123,9 +3123,15 @@ class Globe {
       [68, 16],
       [67, 15]
     ]
-  }static getEstonia() {
+  }
+  static getEstonia() {
     return [
       [67,21]
+    ]
+  }
+  static getLatvia() {
+    return [
+      [67,22]
     ]
   }
 }

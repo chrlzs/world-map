@@ -112,6 +112,11 @@ body {
 .cell.cell-estonia {
   background-color: lightyellow;
 }
+
+.cell.cell-latvia {
+  background-color: lightsteelblue;
+}
+
 .cell-enemy {
   background-color:yellow;
 }

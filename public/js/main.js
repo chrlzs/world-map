@@ -30,7 +30,8 @@ class App {
     this.highlightRegion("Sweden", "cell-sweden");
     this.highlightRegion("Finland", "cell-finland");
     this.highlightRegion("Estonia", "cell-estonia");
-    this.highlightRegion("Latvia", "cell-latvia");
+    this.highlightRegion("Latvia", "cell-latvia"); 
+    this.highlightRegion("Lithuania", "cell-lithuania");
   }
   
   static highlightRegion(region, className) {

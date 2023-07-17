@@ -117,6 +117,10 @@ body {
   background-color: lightsteelblue;
 }
 
+.cell.cell-lithuania  {
+  background-color: lightslategrey;
+}
+
 .cell-enemy {
   background-color:yellow;
 }

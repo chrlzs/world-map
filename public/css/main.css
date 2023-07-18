@@ -121,6 +121,10 @@ body {
   background-color: lightslategrey;
 }
 
+.cell.cell-belarus  {
+  background-color: lightsalmon;
+}
+
 .cell-enemy {
   background-color:yellow;
 }

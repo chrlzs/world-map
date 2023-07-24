@@ -1,3 +1,5 @@
+![Node.js](https://img.shields.io/badge/Node.js-v14.17.4-green)
+
 #world map
 
 HTML / CSS Grid representation of a world map

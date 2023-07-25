@@ -125,6 +125,11 @@ body {
   background-color: lightsalmon;
 }
 
+.cell.cell-ukraine {
+  background-color: paleturquoise;
+}
+
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

@@ -129,6 +129,10 @@ body {
   background-color: paleturquoise;
 }
 
+.cell.cell-poland {
+  background-color: palevioletred;
+}
+
 
 .dialog-box {
   /* Add styles to position the dialog box */

@@ -3162,6 +3162,12 @@ class Globe {
       [65,23]
     ]
   }
+
+  static getMoldova() {
+    return [
+      [68,25]
+    ]
+  }
 }
 
 export { Globe as default };

@@ -133,6 +133,11 @@ body {
   background-color: palevioletred;
 }
 
+.cell.cell-moldova {
+  background-color: saddlebrown;
+}
+
+
 
 .dialog-box {
   /* Add styles to position the dialog box */

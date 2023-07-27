@@ -3167,6 +3167,13 @@ class Globe {
     return [
       [68,25]
     ]
+  
+  }
+
+  static getRomania() {
+    return [
+      [67,25]
+    ]
   }
 }
 

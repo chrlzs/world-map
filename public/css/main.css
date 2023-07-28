@@ -149,6 +149,10 @@ body {
   background-color: white;
 }
 
+.cell.cell-turkey {
+  background-color: pink;
+}
+
 
 .dialog-box {
   /* Add styles to position the dialog box */

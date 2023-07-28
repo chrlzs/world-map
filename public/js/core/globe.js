@@ -3207,6 +3207,12 @@ class Globe {
       [72,28],
     ]
   }
+
+  static getJordan() {
+    return [
+      [71,28]
+    ]
+  }
 }
 
 export { Globe as default };

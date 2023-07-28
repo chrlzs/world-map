@@ -153,6 +153,11 @@ body {
   background-color: pink;
 }
 
+.cell.cell-syria {
+  background-color: purple;
+}
+
+
 
 .dialog-box {
   /* Add styles to position the dialog box */

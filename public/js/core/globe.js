@@ -3194,6 +3194,12 @@ class Globe {
       [71,26],
     ]
   }
+
+  static getSyria() {
+    return [
+      [71,27],
+    ]
+  }
 }
 
 export { Globe as default };

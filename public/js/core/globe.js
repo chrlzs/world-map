@@ -3197,7 +3197,14 @@ class Globe {
 
   static getSyria() {
     return [
-      [71,27],
+      [71,27]
+    ]
+  }
+
+  static getIraq() {
+    return [
+      [72,27],
+      [72,28],
     ]
   }
 }

@@ -125,6 +125,10 @@ body {
   background-color: lightskyblue;
 }
 
+.cell.cell-portugal {
+  background-color: lightcyan;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

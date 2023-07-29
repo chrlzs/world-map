@@ -121,52 +121,6 @@ body {
   background-color: lightslategrey;
 }
 
-.cell.cell-belarus  {
-  background-color: lightsalmon;
-}
-
-.cell.cell-ukraine {
-  background-color: paleturquoise;
-}
-
-.cell.cell-poland {
-  background-color: palevioletred;
-}
-
-.cell.cell-moldova {
-  background-color: saddlebrown;
-}
-
-.cell.cell-romania {
-  background-color: brown;
-}
-
-.cell.cell-bulgaria {
-  background-color: tan;
-}
-
-.cell.cell-greece {
-  background-color: white;
-}
-
-.cell.cell-turkey {
-  background-color: pink;
-}
-
-.cell.cell-syria {
-  background-color: purple;
-}
-
-.cell.cell-iraq {
-  background-color: orangered;
-}
-
-.cell.cell-jordan {
-  background-color: rebeccapurple;
-}
-
-
-
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

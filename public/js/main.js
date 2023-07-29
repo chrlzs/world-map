@@ -32,17 +32,6 @@ class App {
     this.highlightRegion("Estonia", "cell-estonia");
     this.highlightRegion("Latvia", "cell-latvia"); 
     this.highlightRegion("Lithuania", "cell-lithuania");
-    this.highlightRegion("Belarus", "cell-belarus");
-    this.highlightRegion("Ukraine", "cell-ukraine");
-    this.highlightRegion("Poland", "cell-poland");
-    this.highlightRegion("Moldova", "cell-moldova");
-    this.highlightRegion("Romania", "cell-romania");
-    this.highlightRegion("Bulgaria", "cell-bulgaria");
-    this.highlightRegion("Greece", "cell-greece");
-    this.highlightRegion("Turkey", "cell-turkey");
-    this.highlightRegion("Syria", "cell-syria");
-    this.highlightRegion("Iraq", "cell-iraq");
-    this.highlightRegion("Jordan", "cell-jordan");
   }
   
   static highlightRegion(region, className) {

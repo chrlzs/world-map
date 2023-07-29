@@ -3139,6 +3139,16 @@ class Globe {
       [66,22]
     ]
   }
+  static getFrance() {
+    return [
+      [57,25],
+      [58,26],
+      [58,27],
+      [59,27],
+      [59,26],
+      [58,25]
+    ]
+  }
 }
 
 export { Globe as default };

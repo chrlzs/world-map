@@ -133,6 +133,10 @@ body {
   background-color: burlywood;
 }
 
+.cell.cell-belgium {
+  background-color: lime;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

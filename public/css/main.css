@@ -137,6 +137,11 @@ body {
   background-color: lime;
 }
 
+.cell.cell-mexico {
+  background-color: brown;
+}
+
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

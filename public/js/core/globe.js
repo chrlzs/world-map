@@ -3184,6 +3184,13 @@ class Globe {
       [56,31]
     ]
   }
+  static getItaly() {
+    return [
+      [60,28],
+      [60,29],
+      [61,29]
+    ]
+  }
 }
 
 export { Globe as default };

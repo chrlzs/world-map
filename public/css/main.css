@@ -133,12 +133,10 @@ body {
   background-color: burlywood;
 }
 
-<<<<<<< HEAD
 .cell.cell-italy {
   background-color: limegreen;
 }
 
-=======
 .cell.cell-belgium {
   background-color: lime;
 }
@@ -147,8 +145,6 @@ body {
   background-color: brown;
 }
 
-
->>>>>>> 7f530effdc990326569702ddc2dd4b7adc409064
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

@@ -29,6 +29,7 @@ class App {
       { name: "Mexico", className: "cell-mexico" },
       { name: "Cuba", className: "cell-cuba" },
       { name: "Belize", className: "cell-belize" },
+      { name: "Guatamala", className: "cell-guatamala" },
     ];
 
     // Create a tooltip element
@@ -114,7 +115,7 @@ setupClickHandlers() {
       const countryName = cellElement.dataset.countryName;
       const clickedX = parseInt(cellElement.dataset.x);
       const clickedY = parseInt(cellElement.dataset.y);
-      console.log(clickedX + "," + clickedY);
+      console.log(`Clicked coordinates: ${clickedX},${clickedY}`);
       if (countryName) {
         console.log("Country Name:", countryName);
       } else {
@@ -148,6 +149,7 @@ setupClickHandlers() {
       "5,10": "Mexico",
       "10,10": "Cuba",
       "65,15": "Belize",
+      "15,10": "Guatamala"
       // Add more country mappings as needed
     };
 

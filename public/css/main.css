@@ -153,6 +153,10 @@ body {
   background-color: pink;
 }
 
+.cell.cell-guatamala {
+  background-color: orange;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

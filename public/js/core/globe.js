@@ -3233,6 +3233,11 @@ class Globe {
       [27,35]
     ]
   }
+  static getGuatamala() {
+    return [
+      [26,36]
+    ]
+  }
 }
 
 export { Globe as default };

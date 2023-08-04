@@ -35,6 +35,9 @@ class App {
       { name: "Nicaragua", className: "cell-nicaragua" },
       { name: "CostaRica", className: "cell-costa-rica" },
       { name: "Panama", className: "cell-panama" },
+      { name: "Columbia", className: "cell-columbia" },
+      { name: "Venezuela", className: "cell-venezuela" },
+      { name: "Guyana", className: "cell-guyana" },
     ];
 
     // Create a tooltip element
@@ -160,6 +163,7 @@ setupClickHandlers() {
       "70,25": "Nicaragua",
       "75,10": "CostaRica",
       "75,30": "Panama",
+      "30,20": "Venezuela",
       // Add more country mappings as needed
     };
 

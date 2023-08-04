@@ -177,6 +177,18 @@ body {
   background-color: cornflowerblue;
 }
 
+.cell.cell-columbia {
+  background-color: goldenrod;
+}
+
+.cell.cell-venezuela {
+  background-color: blue;
+}
+
+.cell.cell-guyana {
+  background-color: yellow;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

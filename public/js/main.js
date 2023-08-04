@@ -102,25 +102,6 @@ class App {
   }
 
   setupClickHandlers() {
-    // Function to show the tooltip when the mouse hovers over a land cell or on click
-    const showTooltip = (event) => {
-      const cellElement = event.target;
-      const countryName = cellElement.dataset.countryName;
-
-      if (countryName) {
-        this.currentCountryName = countryName;
-        this.tooltipElement.innerHTML = countryName;
-        this.tooltipElement.style.top = `${event.clientY}px`;
-        this.tooltipElement.style.left = `${event.clientX}px`;
-        this.tooltipElement.style.display = "block";
-        alert(countryName);
-      } else {
-        this.currentCountryName = "";
-        this.tooltipElement.style.display = "none";
-      }
-    };
-
-    // Add combined hover and click event listener to all cells
     const allCells = this.gridElement.querySelectorAll(".cell");
     allCells.forEach((cellElement) => {
       cellElement.addEventListener("click", () => {

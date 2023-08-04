@@ -147,6 +147,7 @@ setupClickHandlers() {
       "30,25": "Belgium",
       "5,10": "Mexico",
       "10,10": "Cuba",
+      "65,15": "Belize",
       // Add more country mappings as needed
     };
 

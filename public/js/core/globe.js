@@ -3223,6 +3223,11 @@ class Globe {
       [61,29]
     ]
   }
+  static getCuba() {
+    return [
+      [31,32]
+    ]
+  }
 }
 
 export { Globe as default };

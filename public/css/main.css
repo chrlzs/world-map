@@ -145,6 +145,10 @@ body {
   background-color: brown;
 }
 
+.cell.cell-cuba {
+  background-color: grey;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

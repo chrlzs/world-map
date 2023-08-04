@@ -7,6 +7,7 @@ class App {
     this.grid = new Grid(120, 60);
     this.gridElement = document.querySelector(".grid");
     this.version = new Version().getVersion();
+    this.currentCountryName = "";
     this.highlightedRegions = [
       { name: "UnitedStates", className: "cell-usa" },
       { name: "Canada", className: "cell-canada" },
@@ -39,7 +40,7 @@ class App {
     this.createGlobe();
     this.displayGrid();
     this.updateVersionText();
-    this.setupHoverHandlers(); // Call the new method to set up hover handlers
+    this.setupClickHandlers();
     this.highlightRegions();
   }
 
@@ -92,13 +93,6 @@ class App {
           cellElement.appendChild(glyphElement);
         }
 
-        cellElement.addEventListener("click", () => {
-          const clickedX = parseInt(cellElement.dataset.x);
-          const clickedY = parseInt(cellElement.dataset.y);
-          console.log(clickedX + "," + clickedY);
-          cellElement.classList.add("selected");
-        });
-
         this.gridElement.appendChild(cellElement);
       }
     }
@@ -107,29 +101,34 @@ class App {
     this.grid.setCellDataAttribute(2, 3, "test", "ABC");
   }
 
-  setupHoverHandlers() {
-    // Function to show the tooltip when the mouse hovers over a land cell
+  setupClickHandlers() {
+    // Function to show the tooltip when the mouse hovers over a land cell or on click
     const showTooltip = (event) => {
       const cellElement = event.target;
       const countryName = cellElement.dataset.countryName;
+
       if (countryName) {
+        this.currentCountryName = countryName;
         this.tooltipElement.innerHTML = countryName;
         this.tooltipElement.style.top = `${event.clientY}px`;
         this.tooltipElement.style.left = `${event.clientX}px`;
         this.tooltipElement.style.display = "block";
+        alert(countryName);
+      } else {
+        this.currentCountryName = "";
+        this.tooltipElement.style.display = "none";
       }
     };
 
-    // Function to hide the tooltip when the mouse moves out of the cell
-    const hideTooltip = () => {
-      this.tooltipElement.style.display = "none";
-    };
-
-    // Add hover event listeners to all land cells
-    const landCells = this.gridElement.querySelectorAll(".land");
-    landCells.forEach((cellElement) => {
-      cellElement.addEventListener("mouseover", showTooltip);
-      cellElement.addEventListener("mouseout", hideTooltip);
+    // Add combined hover and click event listener to all cells
+    const allCells = this.gridElement.querySelectorAll(".cell");
+    allCells.forEach((cellElement) => {
+      cellElement.addEventListener("click", () => {
+        const clickedX = parseInt(cellElement.dataset.x);
+        const clickedY = parseInt(cellElement.dataset.y);
+        console.log(clickedX + "," + clickedY);
+        cellElement.classList.add("selected");
+      });
     });
   }
 

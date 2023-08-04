@@ -47,9 +47,14 @@ class App {
   highlightRegions() {
     this.highlightedRegions.forEach((region) => {
       const states = Globe[`get${region.name}`]();
+      const countryName = region.name;
       states.forEach((cell) => {
         const [x, y] = cell;
         this.grid.addClassToCell(x, y, region.className);
+  
+        // Set the country name as a data attribute on the cell
+        const cellElement = this.gridElement.querySelector(`[data-x="${x}"][data-y="${y}"]`);
+        cellElement.dataset.countryName = countryName;
       });
     });
   }
@@ -101,44 +106,47 @@ class App {
     this.grid.setCellDataAttribute(2, 3, "test", "ABC");
   }
 
-  setupClickHandlers() {
-    const allCells = this.gridElement.querySelectorAll(".cell");
-    allCells.forEach((cellElement) => {
-      cellElement.addEventListener("click", () => {
-        const clickedX = parseInt(cellElement.dataset.x);
-        const clickedY = parseInt(cellElement.dataset.y);
-        console.log(clickedX + "," + clickedY);
-        cellElement.classList.add("selected");
-      });
+setupClickHandlers() {
+  const allCells = this.gridElement.querySelectorAll(".cell");
+  allCells.forEach((cellElement) => {
+    cellElement.addEventListener("click", () => {
+      const countryName = cellElement.dataset.countryName;
+      if (countryName) {
+        console.log("Country Name:", countryName);
+      } else {
+        console.log("No country found at this location.");
+      }
+      cellElement.classList.add("selected");
     });
-  }
+  });
+}
 
   getCountryNameFromCoordinates(x, y) {
     // Country mappings based on grid coordinates
     const countryMap = {
-      2: { 3: "UnitedStates" },
-      10: { 20: "Canada" },
-      30: { 10: "Greenland" },
-      40: { 50: "Iceland" },
-      20: { 40: "Ireland" },
-      15: { 45: "UnitedKingdom" },
-      70: { 20: "Norway" },
-      75: { 20: "Sweden" },
-      80: { 20: "Finland" },
-      85: { 20: "Estonia" },
-      80: { 30: "Latvia" },
-      75: { 30: "Lithuania" },
-      25: { 30: "France" },
-      20: { 25: "Portugal" },
-      25: { 20: "Spain" },
-      35: { 25: "Italy" },
-      30: { 25: "Belgium" },
-      5: { 10: "Mexico" },
-      10: { 10: "Cuba" },
+      "2,3": "UnitedStates",
+      "10,20": "Canada",
+      "30,10": "Greenland",
+      "40,50": "Iceland",
+      "20,40": "Ireland",
+      "15,45": "UnitedKingdom",
+      "70,20": "Norway",
+      "75,20": "Sweden",
+      "80,20": "Finland",
+      "85,20": "Estonia",
+      "80,30": "Latvia",
+      "75,30": "Lithuania",
+      "25,30": "France",
+      "20,25": "Portugal",
+      "25,20": "Spain",
+      "35,25": "Italy",
+      "30,25": "Belgium",
+      "5,10": "Mexico",
+      "10,10": "Cuba",
       // Add more country mappings as needed
     };
 
-    return countryMap[x]?.[y] || "";
+    return countryMap[`${x},${y}`] || "";
   }
 }
 

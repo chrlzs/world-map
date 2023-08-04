@@ -27,14 +27,19 @@ class App {
       { name: "Belgium", className: "cell-belgium" },
       { name: "Mexico", className: "cell-mexico" },
       { name: "Cuba", className: "cell-cuba" },
-      // Add more regions as needed
     ];
+
+    // Create a tooltip element
+    this.tooltipElement = document.createElement("div");
+    this.tooltipElement.className = "tooltip";
+    document.body.appendChild(this.tooltipElement);
   }
 
   init() {
     this.createGlobe();
     this.displayGrid();
     this.updateVersionText();
+    this.setupHoverHandlers(); // Call the new method to set up hover handlers
     this.highlightRegions();
   }
 
@@ -94,20 +99,38 @@ class App {
           cellElement.classList.add("selected");
         });
 
-        cellElement.addEventListener("mouseover", () => {
-          const countryName = cellElement.dataset.countryName;
-          if (countryName) {
-            console.log("Hovered over:", countryName);
-            // You can display the country name in a tooltip or any other way you prefer
-          }
-        });
-
         this.gridElement.appendChild(cellElement);
       }
     }
 
     this.grid.addClassToCell(2, 3, "highlight");
     this.grid.setCellDataAttribute(2, 3, "test", "ABC");
+  }
+
+  setupHoverHandlers() {
+    // Function to show the tooltip when the mouse hovers over a land cell
+    const showTooltip = (event) => {
+      const cellElement = event.target;
+      const countryName = cellElement.dataset.countryName;
+      if (countryName) {
+        this.tooltipElement.innerHTML = countryName;
+        this.tooltipElement.style.top = `${event.clientY}px`;
+        this.tooltipElement.style.left = `${event.clientX}px`;
+        this.tooltipElement.style.display = "block";
+      }
+    };
+
+    // Function to hide the tooltip when the mouse moves out of the cell
+    const hideTooltip = () => {
+      this.tooltipElement.style.display = "none";
+    };
+
+    // Add hover event listeners to all land cells
+    const landCells = this.gridElement.querySelectorAll(".land");
+    landCells.forEach((cellElement) => {
+      cellElement.addEventListener("mouseover", showTooltip);
+      cellElement.addEventListener("mouseout", hideTooltip);
+    });
   }
 
   getCountryNameFromCoordinates(x, y) {

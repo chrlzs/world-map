@@ -3228,6 +3228,11 @@ class Globe {
       [31,32]
     ]
   }
+  static getBelize() {
+    return [
+      [27,35]
+    ]
+  }
 }
 
 export { Globe as default };

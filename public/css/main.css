@@ -149,6 +149,10 @@ body {
   background-color: grey;
 }
 
+.cell.cell-belize {
+  background-color: pink;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

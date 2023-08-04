@@ -3286,6 +3286,11 @@ class Globe {
       [33,38],
     ]
   }
+  static getSuriname() {
+    return [
+      [34,39],
+    ]
+  }
 }
 
 export { Globe as default };

@@ -189,6 +189,10 @@ body {
   background-color: yellow;
 }
 
+.cell.cell-suriname {
+  background-color: lawngreen;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

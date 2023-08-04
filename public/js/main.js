@@ -155,7 +155,11 @@ setupClickHandlers() {
       "10,10": "Cuba",
       "65,15": "Belize",
       "65,20": "Guatemala",
-      "65,15": "ElSalvador",
+      "70,15": "ElSalvador",
+      "70,15": "Honduras",
+      "70,25": "Nicaragua",
+      "75,10": "CostaRica",
+      "75,30": "Panama",
       // Add more country mappings as needed
     };
 

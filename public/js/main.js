@@ -111,6 +111,9 @@ setupClickHandlers() {
   allCells.forEach((cellElement) => {
     cellElement.addEventListener("click", () => {
       const countryName = cellElement.dataset.countryName;
+      const clickedX = parseInt(cellElement.dataset.x);
+      const clickedY = parseInt(cellElement.dataset.y);
+      console.log(clickedX + "," + clickedY);
       if (countryName) {
         console.log("Country Name:", countryName);
       } else {

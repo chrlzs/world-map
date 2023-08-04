@@ -3235,7 +3235,13 @@ class Globe {
   }
   static getGuatamala() {
     return [
-      [26,36]
+      [26,36],
+      [27,36]
+    ]
+  }
+  static getElSalvador() {
+    return [
+      [27,37]
     ]
   }
 }

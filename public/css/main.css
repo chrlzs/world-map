@@ -157,6 +157,12 @@ body {
   background-color: orange;
 }
 
+.cell.cell-el-salvador {
+  background-color: turquoise;
+}
+
+
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

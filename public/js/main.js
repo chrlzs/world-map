@@ -30,6 +30,7 @@ class App {
       { name: "Cuba", className: "cell-cuba" },
       { name: "Belize", className: "cell-belize" },
       { name: "Guatamala", className: "cell-guatamala" },
+      { name: "ElSalvador", className: "cell-el-salvador" },
     ];
 
     // Create a tooltip element
@@ -149,7 +150,8 @@ setupClickHandlers() {
       "5,10": "Mexico",
       "10,10": "Cuba",
       "65,15": "Belize",
-      "15,10": "Guatamala"
+      "65,20": "Guatemala",
+      "65,15": "ElSalvador",
       // Add more country mappings as needed
     };
 

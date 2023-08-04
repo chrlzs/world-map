@@ -31,6 +31,10 @@ class App {
       { name: "Belize", className: "cell-belize" },
       { name: "Guatamala", className: "cell-guatamala" },
       { name: "ElSalvador", className: "cell-el-salvador" },
+      { name: "Honduras", className: "cell-honduras" },
+      { name: "Nicaragua", className: "cell-nicaragua" },
+      { name: "CostaRica", className: "cell-costa-rica" },
+      { name: "Panama", className: "cell-panama" },
     ];
 
     // Create a tooltip element

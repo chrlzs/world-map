@@ -3244,6 +3244,27 @@ class Globe {
       [27,37]
     ]
   }
+  static getHonduras() {
+    return [
+      [28,37]
+    ]
+  }
+  static getNicaragua() {
+    return [
+      [28,38],
+      [29,37]
+    ]
+  }
+  static getCostaRica() {
+    return [
+      [29,38]
+    ]
+  }
+  static getPanama() {
+    return [
+      [30,38]
+    ]
+  }
 }
 
 export { Globe as default };

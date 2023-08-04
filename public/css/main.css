@@ -161,7 +161,21 @@ body {
   background-color: turquoise;
 }
 
+.cell.cell-honduras {
+  background-color: papayawhip;
+}
 
+.cell.cell-nicaragua {
+  background-color: olive;
+}
+
+.cell.cell-costa-rica {
+  background-color: azure;
+}
+
+.cell.cell-panama {
+  background-color: cornflowerblue;
+}
 
 .dialog-box {
   /* Add styles to position the dialog box */

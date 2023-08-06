@@ -16,8 +16,6 @@ body {
   }
 }
 
-
-
 #stage {
   display: flex;
   align-items: center;
@@ -191,6 +189,10 @@ body {
 
 .cell.cell-suriname {
   background-color: lawngreen;
+}
+
+.cell.cell-ecuador {
+  background-color: thistle;
 }
 
 .dialog-box {

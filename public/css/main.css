@@ -195,8 +195,8 @@ body {
   background-color: thistle;
 }
 
-.cell.cell-ecuador {
-  background-color: teal;
+.cell.cell-peru {
+  background-color: white;
 }
 
 .dialog-box {
@@ -204,7 +204,7 @@ body {
   width: 200px;
   display: block;
   height: 200px;
-  background-color: green;
+  background-color: white;
   display: none;
 }
 

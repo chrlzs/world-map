@@ -3297,6 +3297,13 @@ class Globe {
       [27, 41]
     ]
   }
+  static getPeru() {
+    return [
+      [27,42],
+      [27, 43],
+      [28, 44]
+    ]
+  }
 }
 
 export { Globe as default };

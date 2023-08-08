@@ -199,6 +199,10 @@ body {
   background-color: white;
 }
 
+.cell.cell-chile {
+  background-color: teal;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

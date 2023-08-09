@@ -203,6 +203,10 @@ body {
   background-color: teal;
 }
 
+.cell.cell-bolivia {
+  background-color: grey;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

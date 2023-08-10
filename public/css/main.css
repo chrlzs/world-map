@@ -207,6 +207,10 @@ body {
   background-color: grey;
 }
 
+.cell.cell-french-guiana {
+  background-color: deepskyblue;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

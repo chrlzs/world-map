@@ -3328,6 +3328,11 @@ class Globe {
       [30, 44]
     ]
   }
+  static getFrenchGuiana() {
+    return [
+      [35,39]
+    ]
+  }
 }
 
 export { Globe as default };

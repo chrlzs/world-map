@@ -3333,6 +3333,11 @@ class Globe {
       [33,39]
     ]
   }
+  static getCayenne() {
+    return [
+      [35,39]
+    ]
+  }
 }
 
 export { Globe as default };

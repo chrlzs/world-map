@@ -3330,7 +3330,7 @@ class Globe {
   }
   static getFrenchGuiana() {
     return [
-      [35,39]
+      [33,39]
     ]
   }
 }

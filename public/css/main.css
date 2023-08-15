@@ -215,6 +215,10 @@ body {
   background-color: powderblue;
 }
 
+.cell.cell-paraguay {
+  background-color: darkkhaki;
+}
+
 
 .dialog-box {
   /* Add styles to position the dialog box */

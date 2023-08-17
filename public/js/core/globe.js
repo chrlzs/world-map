@@ -3349,6 +3349,11 @@ class Globe {
       [35, 47]
     ]
   }
+  static getUraguay() {
+    return [
+      [37, 49]
+    ]
+  }
 }
 
 export { Globe as default };

@@ -219,6 +219,9 @@ body {
   background-color: darkkhaki;
 }
 
+.cell.cell-uraguay {
+  background-color: wheat;
+}
 
 .dialog-box {
   /* Add styles to position the dialog box */

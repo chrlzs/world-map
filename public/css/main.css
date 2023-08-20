@@ -223,6 +223,10 @@ body {
   background-color: wheat;
 }
 
+.cell.cell-argentina {
+  background-color: lime;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

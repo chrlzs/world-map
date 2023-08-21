@@ -3287,8 +3287,13 @@ class Globe {
     ]
   }
   static getSuriname() {
+    return [      
+      [33,39]
+    ]
+  }
+  static getFrenchGuiana() {
     return [
-      [34, 39],
+      [34, 39]
     ]
   }
   static getEcuador() {
@@ -3329,11 +3334,6 @@ class Globe {
       [32, 45],
       [32, 46],
       [31, 44]
-    ]
-  }
-  static getFrenchGuiana() {
-    return [
-      [33,39]
     ]
   }
   static getParaguay() {

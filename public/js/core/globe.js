@@ -3336,11 +3336,6 @@ class Globe {
       [33,39]
     ]
   }
-  static getCayenne() {
-    return [
-      [35,39]
-    ]
-  }
   static getParaguay() {
     return [
       [33, 46],

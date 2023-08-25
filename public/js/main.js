@@ -49,6 +49,7 @@ class App {
       {name: "Argentina", className: "cell-argentina"},
       {name: "Brazil", className: "cell-brazil"},
       {name: "Madagascar", className: "cell-madagascar"},
+      {name: "SouthAfrica", className: "cell-south-africa"}
     ];
 
     // Create a tooltip element

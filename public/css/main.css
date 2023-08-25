@@ -231,6 +231,10 @@ body {
   background-color: lightseagreen
 }
 
+.cell.cell-south-africa {
+  background-color: lightsteelblue
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

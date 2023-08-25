@@ -2881,7 +2881,7 @@ class Globe {
       [42, 6],
       [42, 5],
       [43, 6],
-      [43, 6]
+      [43, 6],
     ];
   }
 
@@ -3046,8 +3046,8 @@ class Globe {
       [49, 4],
       [50, 4],
       [51, 4],
-      [52, 4]
-    ]
+      [52, 4],
+    ];
   }
 
   static getIceland() {
@@ -3056,15 +3056,15 @@ class Globe {
       [58, 15],
       [57, 16],
       [58, 16],
-      [59, 16]
-    ]
+      [59, 16],
+    ];
   }
 
   static getIreland() {
     return [
       [54, 23],
-      [54, 24]
-    ]
+      [54, 24],
+    ];
   }
 
   static getUnitedKingdom() {
@@ -3075,8 +3075,8 @@ class Globe {
       [57, 22],
       [57, 23],
       [56, 23],
-      [56, 24]
-    ]
+      [56, 24],
+    ];
   }
 
   static getNorway() {
@@ -3101,8 +3101,8 @@ class Globe {
       [68, 7],
       [69, 7],
       [69, 8],
-      [70, 8]
-    ]
+      [70, 8],
+    ];
   }
 
   static getSweden() {
@@ -3117,8 +3117,8 @@ class Globe {
       [63, 21],
       [63, 20],
       [63, 19],
-      [63, 18]
-    ]
+      [63, 18],
+    ];
   }
   static getFinland() {
     return [
@@ -3136,23 +3136,17 @@ class Globe {
       [68, 18],
       [68, 17],
       [68, 16],
-      [67, 15]
-    ]
+      [67, 15],
+    ];
   }
   static getEstonia() {
-    return [
-      [67, 21]
-    ]
+    return [[67, 21]];
   }
   static getLatvia() {
-    return [
-      [67, 22]
-    ]
+    return [[67, 22]];
   }
   static getLithuania() {
-    return [
-      [66, 22]
-    ]
+    return [[66, 22]];
   }
   static getFrance() {
     return [
@@ -3161,14 +3155,14 @@ class Globe {
       [58, 27],
       [59, 27],
       [59, 26],
-      [58, 25]
-    ]
+      [58, 25],
+    ];
   }
   static getPortugal() {
     return [
       [55, 31],
-      [55, 30]
-    ]
+      [55, 30],
+    ];
   }
   static getSpain() {
     return [
@@ -3181,13 +3175,11 @@ class Globe {
       [58, 29],
       [56, 30],
       [57, 30],
-      [56, 31]
-    ]
+      [56, 31],
+    ];
   }
   static getBelgium() {
-    return [
-      [59, 25]
-    ]
+    return [[59, 25]];
   }
   static getMexico() {
     return [
@@ -3213,57 +3205,45 @@ class Globe {
       [24, 33],
       [24, 34],
       [25, 34],
-      [23, 34]
-    ]
+      [23, 34],
+    ];
   }
   static getItaly() {
     return [
       [60, 28],
       [60, 29],
-      [61, 29]
-    ]
+      [61, 29],
+    ];
   }
   static getCuba() {
-    return [
-      [31, 32]
-    ]
+    return [[31, 32]];
   }
   static getBelize() {
-    return [
-      [27, 35]
-    ]
+    return [[27, 35]];
   }
   static getGuatamala() {
     return [
       [26, 36],
-      [27, 36]
-    ]
+      [27, 36],
+    ];
   }
   static getElSalvador() {
-    return [
-      [27, 37]
-    ]
+    return [[27, 37]];
   }
   static getHonduras() {
-    return [
-      [28, 37]
-    ]
+    return [[28, 37]];
   }
   static getNicaragua() {
     return [
       [28, 38],
-      [29, 37]
-    ]
+      [29, 37],
+    ];
   }
   static getCostaRica() {
-    return [
-      [29, 38]
-    ]
+    return [[29, 38]];
   }
   static getPanama() {
-    return [
-      [30, 38]
-    ]
+    return [[30, 38]];
   }
   static getColumbia() {
     return [
@@ -3272,42 +3252,36 @@ class Globe {
       [30, 39],
       [29, 40],
       [28, 40],
-    ]
+    ];
   }
   static getVenezuela() {
     return [
       [31, 39],
       [32, 38],
       [32, 39],
-    ]
+    ];
   }
   static getGuyana() {
-    return [
-      [33, 38],
-    ]
+    return [[33, 38]];
   }
   static getSuriname() {
-    return [
-      [33, 39]
-    ]
+    return [[33, 39]];
   }
   static getFrenchGuiana() {
-    return [
-      [34, 39]
-    ]
+    return [[34, 39]];
   }
   static getEcuador() {
     return [
       [28, 41],
-      [27, 41]
-    ]
+      [27, 41],
+    ];
   }
   static getPeru() {
     return [
       [27, 42],
       [27, 43],
-      [28, 44]
-    ]
+      [28, 44],
+    ];
   }
   static getChile() {
     return [
@@ -3322,8 +3296,8 @@ class Globe {
       [31, 53],
       [31, 54],
       [31, 55],
-      [31, 56]
-    ]
+      [31, 56],
+    ];
   }
   static getBolivia() {
     return [
@@ -3333,21 +3307,19 @@ class Globe {
       [30, 44],
       [32, 45],
       [32, 46],
-      [31, 44]
-    ]
+      [31, 44],
+    ];
   }
   static getParaguay() {
     return [
       [33, 46],
       [34, 46],
       [34, 47],
-      [35, 47]
-    ]
+      [35, 47],
+    ];
   }
   static getUraguay() {
-    return [
-      [37, 49]
-    ]
+    return [[37, 49]];
   }
   static getBrazil() {
     return [
@@ -3419,8 +3391,8 @@ class Globe {
       [38, 47],
       [39, 47],
       [37, 48],
-      [38, 48]
-    ]
+      [38, 48],
+    ];
   }
   static getArgentina() {
     return [
@@ -3465,8 +3437,17 @@ class Globe {
       [34, 48],
       [35, 48],
       [36, 48],
-      [33, 47]
-    ]
+      [33, 47],
+    ];
+  }
+  static getMadagascar() {
+    return [
+      [68, 48],
+      [68, 47],
+      [69, 47],
+      [69, 46],
+      [69, 45],
+    ];
   }
 }
 

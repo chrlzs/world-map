@@ -3449,6 +3449,13 @@ class Globe {
       [69, 45],
     ];
   }
+  static getSouthAfrica() {
+    return [
+      [62, 50],
+      [62, 49],
+      [63, 49],
+    ]
+  }
 }
 
 export { Globe as default };

@@ -104,8 +104,8 @@ class App {
 
         if (this.grid.isLand(x, y)) {
           cellElement.classList.add("land");
-          const countryName = this.getCountryNameFromCoordinates(x, y);
-          cellElement.dataset.countryName = countryName;
+          //const countryName = this.getCountryNameFromCoordinates(x, y);
+          //cellElement.dataset.countryName = countryName;
         }
 
         if (this.grid.isWater(x, y)) {

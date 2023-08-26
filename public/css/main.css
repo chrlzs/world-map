@@ -224,15 +224,15 @@ body {
 }
 
 .cell.cell-brazil {
-  background-color: lightseagreen
+  background-color: lightseagreen;
 }
 
 .cell.cell-madagascar {
-  background-color: lightseagreen
+  background-color: pink;
 }
 
 .cell.cell-south-africa {
-  background-color: lightsteelblue
+  background-color: lightsteelblue;
 }
 
 .dialog-box {

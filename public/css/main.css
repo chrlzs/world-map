@@ -32,7 +32,7 @@ body {
   display: grid;
   grid-template-columns: repeat(120, 1fr);
   grid-template-rows: repeat(60, 1fr);  
-  background-color: var(--dark-olive-green);
+  background-color: var(--darkblue);
   justify-content: center;
 }
 
@@ -51,7 +51,7 @@ body {
 
 .cell-solid.water {
 
-  background-color: blue;
+  background-color: var(--darkblue);
 }
 
 .cell-solid.land {

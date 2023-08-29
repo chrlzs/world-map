@@ -3456,6 +3456,13 @@ class Globe {
       [63, 49],
     ]
   }
+  static getNamibia() {
+    return [
+      [61, 49],
+      [60, 48],
+      [61, 48],
+    ]
+  }
 }
 
 export { Globe as default };

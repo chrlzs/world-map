@@ -43,14 +43,14 @@ class App {
       { name: "Peru", className: "cell-peru" },
       { name: "Chile", className: "cell-chile" },
       { name: "Bolivia", className: "cell-bolivia" },
-      {name: "FrenchGuiana", className: "cell-french-guiana"},
-      {name: "Paraguay", className: "cell-paraguay"},
-      {name: "Uraguay", className: "cell-uraguay"},
-      {name: "Argentina", className: "cell-argentina"},
-      {name: "Brazil", className: "cell-brazil"},
-      {name: "Madagascar", className: "cell-madagascar"},
-      {name: "SouthAfrica", className: "cell-south-africa"},
-      {name: "Namibia", className: "cell-namibia"}
+      { name: "FrenchGuiana", className: "cell-french-guiana" },
+      { name: "Paraguay", className: "cell-paraguay" },
+      { name: "Uraguay", className: "cell-uraguay" },
+      { name: "Argentina", className: "cell-argentina" },
+      { name: "Brazil", className: "cell-brazil" },
+      { name: "Madagascar", className: "cell-madagascar" },
+      { name: "SouthAfrica", className: "cell-south-africa" },
+      { name: "Namibia", className: "cell-namibia" }
     ];
 
     // Create a tooltip element
@@ -74,7 +74,7 @@ class App {
       states.forEach((cell) => {
         const [x, y] = cell;
         this.grid.addClassToCell(x, y, region.className);
-  
+
         // Set the country name as a data attribute on the cell
         const cellElement = this.gridElement.querySelector(`[data-x="${x}"][data-y="${y}"]`);
         cellElement.dataset.countryName = countryName;
@@ -129,59 +129,22 @@ class App {
     this.grid.setCellDataAttribute(2, 3, "test", "ABC");
   }
 
-setupClickHandlers() {
-  const allCells = this.gridElement.querySelectorAll(".cell");
-  allCells.forEach((cellElement) => {
-    cellElement.addEventListener("click", () => {
-      const countryName = cellElement.dataset.countryName;
-      const clickedX = parseInt(cellElement.dataset.x);
-      const clickedY = parseInt(cellElement.dataset.y);
-      console.log(`Clicked coordinates: ${clickedX},${clickedY}`);
-      if (countryName) {
-        console.log("Country Name:", countryName);
-      } else {
-        console.log("No country found at this location.");
-      }
-      cellElement.classList.add("selected");
+  setupClickHandlers() {
+    const allCells = this.gridElement.querySelectorAll(".cell");
+    allCells.forEach((cellElement) => {
+      cellElement.addEventListener("click", () => {
+        const countryName = cellElement.dataset.countryName;
+        const clickedX = parseInt(cellElement.dataset.x);
+        const clickedY = parseInt(cellElement.dataset.y);
+        console.log(`Clicked coordinates: ${clickedX},${clickedY}`);
+        if (countryName) {
+          console.log("Country Name:", countryName);
+        } else {
+          console.log("No country found at this location.");
+        }
+        cellElement.classList.add("selected");
+      });
     });
-  });
-}
-
-  getCountryNameFromCoordinates(x, y) {
-    // Country mappings based on grid coordinates
-    const countryMap = {
-      "2,3": "UnitedStates",
-      "10,20": "Canada",
-      "30,10": "Greenland",
-      "40,50": "Iceland",
-      "20,40": "Ireland",
-      "15,45": "UnitedKingdom",
-      "70,20": "Norway",
-      "75,20": "Sweden",
-      "80,20": "Finland",
-      "85,20": "Estonia",
-      "80,30": "Latvia",
-      "75,30": "Lithuania",
-      "25,30": "France",
-      "20,25": "Portugal",
-      "25,20": "Spain",
-      "35,25": "Italy",
-      "30,25": "Belgium",
-      "5,10": "Mexico",
-      "10,10": "Cuba",
-      "65,15": "Belize",
-      "65,20": "Guatemala",
-      "70,15": "ElSalvador",
-      "70,15": "Honduras",
-      "70,25": "Nicaragua",
-      "75,10": "CostaRica",
-      "75,30": "Panama",
-      "30,20": "Venezuela",
-      "50,20": "Suriname",
-      // Add more country mappings as needed
-    };
-
-    return countryMap[`${x},${y}`] || "";
   }
 }
 

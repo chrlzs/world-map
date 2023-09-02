@@ -53,7 +53,6 @@ class App {
       { name: "Namibia", className: "cell-namibia" }
     ];
 
-    // Create a tooltip element
     this.tooltipElement = document.createElement("div");
     this.tooltipElement.className = "tooltip";
     document.body.appendChild(this.tooltipElement);
@@ -70,14 +69,10 @@ class App {
   highlightRegions() {
     this.highlightedRegions.forEach((region) => {
       const states = Globe[`get${region.name}`]();
-      const countryName = region.name;
-      states.forEach((cell) => {
-        const [x, y] = cell;
+      states.forEach(([x, y]) => {
         this.grid.addClassToCell(x, y, region.className);
-
-        // Set the country name as a data attribute on the cell
         const cellElement = this.gridElement.querySelector(`[data-x="${x}"][data-y="${y}"]`);
-        cellElement.dataset.countryName = countryName;
+        cellElement.dataset.countryName = region.name;
       });
     });
   }
@@ -106,8 +101,6 @@ class App {
 
         if (this.grid.isLand(x, y)) {
           cellElement.classList.add("land");
-          //const countryName = this.getCountryNameFromCoordinates(x, y);
-          //cellElement.dataset.countryName = countryName;
         }
 
         if (this.grid.isWater(x, y)) {
@@ -130,20 +123,19 @@ class App {
   }
 
   setupClickHandlers() {
-    const allCells = this.gridElement.querySelectorAll(".cell");
-    allCells.forEach((cellElement) => {
-      cellElement.addEventListener("click", () => {
-        const countryName = cellElement.dataset.countryName;
-        const clickedX = parseInt(cellElement.dataset.x);
-        const clickedY = parseInt(cellElement.dataset.y);
-        console.log(`Clicked coordinates: ${clickedX},${clickedY}`);
-        if (countryName) {
-          console.log("Country Name:", countryName);
-        } else {
-          console.log("No country found at this location.");
-        }
-        cellElement.classList.add("selected");
-      });
+    this.gridElement.addEventListener("click", (event) => {
+      const cellElement = event.target.closest(".cell");
+      if (!cellElement) return;
+      const countryName = cellElement.dataset.countryName;
+      const clickedX = parseInt(cellElement.dataset.x);
+      const clickedY = parseInt(cellElement.dataset.y);
+      console.log(`Clicked coordinates: ${clickedX},${clickedY}`);
+      if (countryName) {
+        console.log("Country Name:", countryName);
+      } else {
+        console.log("No country found at this location.");
+      }
+      cellElement.classList.add("selected");
     });
   }
 }

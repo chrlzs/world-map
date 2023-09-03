@@ -243,6 +243,10 @@ body {
   background-color: pink;
 }
 
+.cell.cell-papua-new-guinea {
+  background-color: seagreen;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

@@ -3474,6 +3474,14 @@ class Globe {
       [112,53]
     ]
   }
+  static getPapuaNewGuinea() { 
+    return [
+      [105, 48],
+      [105, 47],
+      [106, 47],
+      [106, 48]
+    ]
+  }
 }
 
 export { Globe as default };

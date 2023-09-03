@@ -239,6 +239,10 @@ body {
   background-color: khaki;
 }
 
+.cell.cell-new-zealand {
+  background-color: pink;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

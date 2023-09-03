@@ -3463,6 +3463,17 @@ class Globe {
       [61, 48],
     ]
   }
+  static getNewZealand() {
+    return [
+      [110,57],
+      [110,56],
+      [111,56],
+      [111,55],
+      [112,55],
+      [113,54],
+      [112,53]
+    ]
+  }
 }
 
 export { Globe as default };

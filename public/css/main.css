@@ -247,6 +247,10 @@ body {
   background-color: white;
 }
 
+.cell.cell-australia {
+  background-color: orangered;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

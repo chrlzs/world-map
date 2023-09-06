@@ -196,7 +196,7 @@ body {
 }
 
 .cell.cell-peru {
-  background-color: white;
+  background-color: gainsboro;
 }
 
 .cell.cell-chile {
@@ -256,7 +256,7 @@ body {
   width: 200px;
   display: block;
   height: 200px;
-  background-color: white;
+  background-color: gainsboro;
   display: none;
 }
 
@@ -275,7 +275,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 400px;
-  background-color: white;
+  background-color: gainsboro;
   padding: 20px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
   z-index: 9999;
@@ -309,7 +309,7 @@ body {
 .dialog-content.typing::after {
   content: "";
   animation: typing 0.5s steps(40, end);
-  white-space: nowrap;
+  gainsboro-space: nowrap;
   overflow: hidden;
   width: 0;
   display: inline-block;

@@ -251,6 +251,10 @@ body {
   background-color: orangered;
 }
 
+.cell.cell-mozambique {
+  background-color: orangered;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

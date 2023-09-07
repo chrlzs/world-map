@@ -3482,6 +3482,13 @@ class Globe {
       [106, 48]
     ]
   }
+  static getMozambique() {
+    return [
+      [64, 48],
+      [64, 47],
+      [65, 46]
+    ]
+  }
   static getAustralia() {
     return [
       [98,50],

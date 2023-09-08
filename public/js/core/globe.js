@@ -3548,6 +3548,13 @@ class Globe {
       [99, 55]
     ]
   }
+  static getBotswana() {
+    return [
+      [62, 48],
+      [63, 48],
+      [62, 47]
+    ]
+  }
 }
 
 export { Globe as default };

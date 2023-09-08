@@ -255,6 +255,11 @@ body {
   background-color: orangered;
 }
 
+.cell.cell-botswana {
+  background-color: yellow;
+}
+
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

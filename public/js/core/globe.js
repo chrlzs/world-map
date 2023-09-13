@@ -3461,6 +3461,7 @@ class Globe {
       [61, 49],
       [60, 48],
       [61, 48],
+      [61, 47]
     ]
   }
   static getNewZealand() {
@@ -3549,6 +3550,13 @@ class Globe {
     ]
   }
   static getBotswana() {
+    return [
+      [62, 48],
+      [63, 48],
+      [62, 47]
+    ]
+  }
+  static getNam() {
     return [
       [62, 48],
       [63, 48],

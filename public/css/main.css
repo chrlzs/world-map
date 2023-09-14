@@ -259,6 +259,10 @@ body {
   background-color: blueviolet  ;
 }
 
+.cell.cell-angola {
+  background-color: gray;
+}
+
 
 .dialog-box {
   /* Add styles to position the dialog box */

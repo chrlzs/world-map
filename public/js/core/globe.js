@@ -3556,11 +3556,11 @@ class Globe {
       [62, 47]
     ]
   }
-  static getNam() {
+  static getAngola() {
     return [
-      [62, 48],
-      [63, 48],
-      [62, 47]
+      [61, 46],
+      [60, 45],
+      [61, 45]
     ]
   }
 }

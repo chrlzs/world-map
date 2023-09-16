@@ -18,4 +18,14 @@ Before running the application, ensure you have the following installed:
 
    ```bash
    npm install
+   ```
 
+## Running the Application
+
+Once you have installed the dependencies, you can run the application using the following command:
+
+```bash
+npm start
+```
+
+This will start the application and you will be able to view the world map in your web browser.

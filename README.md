@@ -28,4 +28,10 @@ Once you have installed the dependencies, you can run the application using the 
 npm start
 ```
 
+or 
+
+```bash
+node server.js
+```
+
 This will start the application and you will be able to view the world map in your web browser.

@@ -263,6 +263,9 @@ body {
   background-color: gray;
 }
 
+.cell.cell-zimbabwe {
+  background-color: lime;
+}
 
 .dialog-box {
   /* Add styles to position the dialog box */

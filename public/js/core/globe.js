@@ -3563,6 +3563,11 @@ class Globe {
       [61, 45]
     ]
   }
+  static getZimbabwe() {
+    return [
+      [63, 47]
+    ]
+  }
 }
 
 export { Globe as default };

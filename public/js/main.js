@@ -56,7 +56,8 @@ class App {
       { name: "Australia", className: "cell-australia"},
       { name: "Mozambique", className: "cell-mozambique"},
       { name: "Botswana", className: "cell-botswana"},
-      { name: "Angola", className: "cell-angola"}
+      { name: "Angola", className: "cell-angola"},
+      { name: "Zimbabwe", className: "cell-zimbabwe"},
     ];
 
     this.tooltipElement = document.createElement("div");

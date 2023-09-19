@@ -267,6 +267,10 @@ body {
   background-color: lime;
 }
 
+.cell.cell-zambia{
+  background-color: lightblue;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

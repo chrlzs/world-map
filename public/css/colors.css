@@ -1,13 +1,13 @@
 :root {
-    --primary: var(--darkblue);
-    --secondary: var(--pink);
+  --primary: var(--darkblue);
+  --secondary: var(--pink);
 
-    --darkblue: #120458;
-    --purple: #7a04eb;
-    --pink: #fe75fe;
-    --magenta: #ff00a0;
-    --salmon: #ff124f;
+  --darkblue: #120458;
+  --purple: #7a04eb;
+  --pink: #fe75fe;
+  --magenta: #ff00a0;
+  --salmon: #ff124f;
 
-    --dark-olive-green: #556B2F;
-    --dark-slate-gray: #2F4F4F;
-  }
+  --dark-olive-green: #556b2f;
+  --dark-slate-gray: #2f4f4f;
+}

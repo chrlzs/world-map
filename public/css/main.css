@@ -27,17 +27,16 @@ body {
 
 /* Grid styles */
 .grid {
-
   height: 100%;
   display: grid;
   grid-template-columns: repeat(120, 1fr);
-  grid-template-rows: repeat(60, 1fr);  
+  grid-template-rows: repeat(60, 1fr);
   background-color: var(--darkblue);
   justify-content: center;
 }
 
 .cell {
-  background-color: var(--darkblue); 
+  background-color: var(--darkblue);
   color: #fff;
   border-radius: 5px;
   padding: 5px;
@@ -45,12 +44,10 @@ body {
 }
 
 .cell:hover {
-  background-color: var(--pink); 
+  background-color: var(--pink);
 }
 
-
 .cell-solid.water {
-
   background-color: var(--darkblue);
 }
 
@@ -58,7 +55,7 @@ body {
   background-color: green;
 }
 
-.cell-entity {  
+.cell-entity {
   position: relative;
 }
 
@@ -67,19 +64,19 @@ body {
 }
 
 .cell.selected {
-  background-color:red;
+  background-color: red;
 }
 
 .cell.cell-usa {
-  background-color:greenyellow;
+  background-color: greenyellow;
 }
 
 .cell.cell-canada {
-  background-color:lightskyblue;
+  background-color: lightskyblue;
 }
 
 .cell.cell-greenland {
-  background-color:lightpink;
+  background-color: lightpink;
 }
 
 .cell.cell-iceland {
@@ -89,7 +86,6 @@ body {
 .cell.cell-ireland {
   background-color: lightcoral;
 }
-
 
 .cell.cell-united-kingdom {
   background-color: lightcyan;
@@ -115,11 +111,11 @@ body {
   background-color: lightsteelblue;
 }
 
-.cell.cell-lithuania  {
+.cell.cell-lithuania {
   background-color: lightslategrey;
 }
 
-.cell.cell-france  {
+.cell.cell-france {
   background-color: brown;
 }
 
@@ -256,7 +252,7 @@ body {
 }
 
 .cell.cell-botswana {
-  background-color: blueviolet  ;
+  background-color: blueviolet;
 }
 
 .cell.cell-angola {
@@ -267,7 +263,7 @@ body {
   background-color: lime;
 }
 
-.cell.cell-zambia{
+.cell.cell-zambia {
   background-color: lightblue;
 }
 
@@ -279,7 +275,6 @@ body {
   background-color: gainsboro;
   display: none;
 }
-
 
 .close-button {
   width: 20px;

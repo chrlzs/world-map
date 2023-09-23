@@ -24,7 +24,10 @@ class PathFinder {
       openSetSize--;
 
       for (const neighbor of grid.getNeighbors(current.x, current.y)) {
-        if (this.isNPCAtPosition(npc, neighbor.x, neighbor.y) && (neighbor.x !== targetNode.x || neighbor.y !== targetNode.y)) {
+        if (
+          this.isNPCAtPosition(npc, neighbor.x, neighbor.y) &&
+          (neighbor.x !== targetNode.x || neighbor.y !== targetNode.y)
+        ) {
           // Skip this neighbor if it's an NPC and not the target position
           continue;
         }
@@ -66,7 +69,7 @@ class PathFinder {
   static getLowestFScoreNode(nodes, fScore) {
     let lowestFScoreNode = null;
     let lowestFScore = Infinity;
-  
+
     for (const node of nodes) {
       const nodeFScore = fScore.get(node);
       if (nodeFScore < lowestFScore) {
@@ -74,7 +77,7 @@ class PathFinder {
         lowestFScoreNode = node;
       }
     }
-  
+
     return lowestFScoreNode;
   }
 

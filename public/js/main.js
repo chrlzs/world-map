@@ -52,13 +52,13 @@ class App {
       { name: "SouthAfrica", className: "cell-south-africa" },
       { name: "Namibia", className: "cell-namibia" },
       { name: "NewZealand", className: "cell-new-zealand" },
-      { name: "PapuaNewGuinea", className: "cell-papua-new-guinea"},
-      { name: "Australia", className: "cell-australia"},
-      { name: "Mozambique", className: "cell-mozambique"},
-      { name: "Botswana", className: "cell-botswana"},
-      { name: "Angola", className: "cell-angola"},
-      { name: "Zimbabwe", className: "cell-zimbabwe"},
-      { name: "Zambia", className: "cell-zambia"},
+      { name: "PapuaNewGuinea", className: "cell-papua-new-guinea" },
+      { name: "Australia", className: "cell-australia" },
+      { name: "Mozambique", className: "cell-mozambique" },
+      { name: "Botswana", className: "cell-botswana" },
+      { name: "Angola", className: "cell-angola" },
+      { name: "Zimbabwe", className: "cell-zimbabwe" },
+      { name: "Zambia", className: "cell-zambia" },
     ];
 
     this.tooltipElement = document.createElement("div");
@@ -79,7 +79,9 @@ class App {
       const states = Globe[`get${region.name}`]();
       states.forEach(([x, y]) => {
         this.grid.addClassToCell(x, y, region.className);
-        const cellElement = this.gridElement.querySelector(`[data-x="${x}"][data-y="${y}"]`);
+        const cellElement = this.gridElement.querySelector(
+          `[data-x="${x}"][data-y="${y}"]`
+        );
         cellElement.dataset.countryName = region.name;
       });
     });

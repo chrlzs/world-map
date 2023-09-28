@@ -324,7 +324,7 @@ body {
 .dialog-content.typing::after {
   content: "";
   animation: typing 0.5s steps(40, end);
-  gainsboro-space: nowrap;
+  white-space: nowrap;
   overflow: hidden;
   width: 0;
   display: inline-block;

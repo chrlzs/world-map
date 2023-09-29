@@ -28,7 +28,7 @@ Once you have installed the dependencies, you can run the application using the 
 npm start
 ```
 
-or 
+or
 
 ```bash
 node server.js

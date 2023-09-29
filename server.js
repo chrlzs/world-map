@@ -1,13 +1,13 @@
-import express from 'express';
+import express from "express";
 const app = express();
 const port = 3000;
 
 // Serve static files from the 'public' directory
-app.use(express.static('public'));
+app.use(express.static("public"));
 
 // Define a route for the single page
-app.get('/', (req, res) => {
-  res.sendFile('index.html');
+app.get("/", (req, res) => {
+  res.sendFile("index.html");
 });
 
 // Start the server

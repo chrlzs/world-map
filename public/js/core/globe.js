@@ -3561,6 +3561,7 @@ class Globe {
       [61, 46],
       [60, 45],
       [61, 45],
+      [62, 46]
     ];
   }
   static getZimbabwe() {

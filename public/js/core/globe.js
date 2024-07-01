@@ -2184,6 +2184,9 @@ class Globe {
 
     grid.setCell(99, 46, 1);
 
+    grid.setCell(99, 32, 1);
+    grid.setCell(99, 33, 1);
+
     grid.setCell(102, 46, 1);
     grid.setCell(103, 46, 1);
     grid.setCell(104, 46, 1);

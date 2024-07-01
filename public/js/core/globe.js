@@ -3711,7 +3711,7 @@ class Globe {
       [92, 31],
       [93, 31],
       [94, 31],
-      // Add more coordinates as needed
+      // TODO: Add more coordinates as needed
     ];
   }
 

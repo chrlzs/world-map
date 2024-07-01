@@ -64,6 +64,8 @@ class App {
       { name: "India", className: "cell-india" },
       { name: "Egypt", className: "cell-egypt" },
       { name: "Japan", className: "cell-japan" },
+      { name: "NorthKorea", className: "cell-north-korea" },
+      { name: "SouthKorea", className: "cell-south-korea" },
     ];
 
     this.tooltipElement = document.createElement("div");

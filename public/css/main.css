@@ -283,8 +283,12 @@ body {
   background-color: blanchedalmond;
 }
 
-.cell.cell-japan {
+.cell.cell-north-korea {
+  background-color: violet;
+}
 
+.cell.cell-south-korea {
+  background-color: turquoise;
 }
 
 .dialog-box {

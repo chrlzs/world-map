@@ -283,6 +283,10 @@ body {
   background-color: blanchedalmond;
 }
 
+.cell.cell-japan {
+
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

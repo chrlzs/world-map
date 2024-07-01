@@ -1693,11 +1693,6 @@ class Globe {
     grid.setCell(96, 33, 1);
     grid.setCell(97, 33, 1);
 
-    grid.setCell(99, 33, 1);
-    grid.setCell(100, 33, 1);
-
-    grid.setCell(102, 33, 1);
-
     grid.setCell(21, 34, 1);
 
     grid.setCell(23, 34, 1);
@@ -1747,9 +1742,6 @@ class Globe {
     grid.setCell(94, 34, 1);
     grid.setCell(95, 34, 1);
     grid.setCell(96, 34, 1);
-
-    grid.setCell(99, 34, 1);
-    grid.setCell(100, 34, 1);
 
     grid.setCell(21, 35, 1);
 

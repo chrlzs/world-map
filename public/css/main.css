@@ -267,6 +267,10 @@ body {
   background-color: lightblue;
 }
 
+.cell.cell-russia {
+  background-color: lightcyan;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

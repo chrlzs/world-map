@@ -295,6 +295,22 @@ body {
   background-color: turquoise;
 }
 
+.cell.cell-morocco {
+  background-color: turquoise;
+}
+
+.cell.cell-libya {
+  background-color: saddlebrown;
+}
+
+.cell.cell-tunisia {
+  background-color: salmon;
+}
+
+.cell.cell-algeria {
+  background-color: slateblue;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

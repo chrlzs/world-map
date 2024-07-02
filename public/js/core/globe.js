@@ -3553,6 +3553,10 @@ class Globe {
       [60, 45],
       [61, 45],
       [62, 46],
+      [59, 44],
+      [60, 44],
+      [61, 44],
+      [60, 42],
     ];
   }
   static getZimbabwe() {
@@ -3868,12 +3872,9 @@ class Globe {
 
   static getNigeria() {
     return [
-      [58, 40],
-      [59, 40],
-      [60, 40],
-      [58, 41],
-      [59, 41],
-      [60, 41],
+      [57, 40],
+      [57, 39],
+      [57, 38],
     ];
   }
 
@@ -3908,18 +3909,33 @@ class Globe {
 
   static getDemocraticRepublicOfCongo() {
     return [
-      [61, 42],
-      [62, 42],
-      [63, 42],
-      [64, 42],
+      [59, 43],
+      [60, 43],
       [61, 43],
       [62, 43],
       [63, 43],
-      [64, 43],
-      [61, 44],
       [62, 44],
       [63, 44],
-      [64, 44],
+      [62, 45],
+      [63, 45],
+      [63, 40],
+      [63, 41],
+      [64, 41],
+      [63, 42],
+      [61, 42],
+      [62, 42],
+      [62, 41],
+      [62, 40],
+    ];
+  }
+
+  static getRepublicOfCongo() {
+    return [
+      [59, 41],
+      [60, 41],
+      [62, 41],
+      [61, 41],
+      [61, 40],
     ];
   }
 
@@ -4140,6 +4156,44 @@ class Globe {
   static getBurundi() {
     return [
       [64, 43],
+    ];
+  }
+
+  static getGabon() {
+    return [
+      [59, 40],
+      [60, 40],
+    ];
+  }
+
+  static getEquatorialGuinea() {
+    return [
+      [58, 40],
+    ];
+  }
+  
+  static getCameroon() {
+    return [
+      [58, 39],
+      [58, 38]
+    ];
+  }
+
+  static getGhana() {
+    return [
+      [56, 40],
+    ];
+  }
+  
+  static getIvoryCoast() {
+    return [
+      [55, 40],
+    ];
+  }
+
+  static getLiberia() {
+    return [
+      [54, 39],
     ];
   }
 }

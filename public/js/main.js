@@ -75,6 +75,13 @@ class App {
       { name: "Kenya", className: "cell-kenya" },
       { name: "Somalia", className: "cell-somalia" },
       { name: "Djibouti", className: "cell-djibouti" },
+      { name: "Eritrea", className: "cell-eritrea" },
+      { name: "Ethiopia", className: "cell-ethiopia" },
+      { name: "Sudan", className: "cell-sudan" },
+      { name: "SouthSudan", className: "cell-south-sudan" },
+      { name: "Uganda", className: "cell-uganda" },
+      { name: "Rwanda", className: "cell-rwanda" },
+      { name: "Burundi", className: "cell-burundi" },
     ];
 
     this.tooltipElement = document.createElement("div");

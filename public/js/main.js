@@ -70,6 +70,11 @@ class App {
       { name: "Libya", className: "cell-libya" },
       { name: "Tunisia", className: "cell-tunisia" },
       { name: "Algeria", className: "cell-algeria" },
+      { name: "Malawi", className: "cell-malawi" },
+      { name: "Tanzania", className: "cell-tanzania" },
+      { name: "Kenya", className: "cell-kenya" },
+      { name: "Somalia", className: "cell-somalia" },
+      { name: "Djibouti", className: "cell-djibouti" },
     ];
 
     this.tooltipElement = document.createElement("div");

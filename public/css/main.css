@@ -311,6 +311,26 @@ body {
   background-color: slateblue;
 }
 
+.cell.cell-malawi {
+  background-color: snow;
+}
+
+.cell.cell-tanzania {
+  background-color: blue;
+}
+
+.cell.cell-kenya {
+  background-color: yellow;
+}
+
+.cell.cell-somalia {
+  background-color: papayawhip;
+}
+
+.cell.cell-djibouti {
+  background-color: purple;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

@@ -331,6 +331,37 @@ body {
   background-color: purple;
 }
 
+.cell.cell-eritrea {
+  background-color: pink;
+}
+
+.cell.cell-ethiopia {
+  background-color: hotpink;
+}
+
+.cell.cell-sudan {
+  background-color: lightblue;
+}
+
+.cell.cell-south-sudan {
+  background-color: lightyellow;
+}
+
+.cell.cell-uganda
+ {
+  background-color: brown;
+}
+
+.cell.cell-rwanda
+ {
+  background-color: pink;
+}
+
+.cell.cell-burundi
+ {
+  background-color: orange;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

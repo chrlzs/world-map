@@ -425,6 +425,26 @@ body {
   background-color: purple;
 }
 
+.cell.cell-chad {
+  background-color: yellow;
+}
+
+.cell.cell-central-african-republic {
+  background-color: pink;
+}
+
+.cell.cell-niger {
+  background-color: brown;
+}
+
+.cell.cell-mali {
+  background-color: lightblue;
+}
+
+.cell.cell-burkina-faso {
+  background-color: lightslategray;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

@@ -4196,6 +4196,45 @@ class Globe {
       [54, 39],
     ];
   }
+
+  static getSierraLeone() {
+    return [
+      [53, 38],
+    ];
+  }
+
+  static getGuinea() {
+    return [
+      [53, 37],
+      [54,38],
+    ];
+  }
+
+  static getMauritania() {
+    return [
+      [55, 34],
+      [55, 35],
+      [56, 34]
+    ];
+  }
+
+  static getSenegal() {
+    return [
+      [54, 35],
+    ];
+  }
+
+  static getGuineaBissau() {
+    return [
+      [54, 37],
+    ];
+  }
+
+  static getTheGambia() {
+    return [
+      [54, 36],
+    ];
+  }
 }
 
 export { Globe as default };

@@ -401,6 +401,29 @@ body {
   background-color: blue;
 }
 
+.cell.cell-sierra-leone {
+  background-color: darkorchid;
+}
+
+.cell.cell-guinea {
+  background-color: lightsalmon;
+}
+
+.cell.cell-mauritania {
+  background-color: pink;
+}
+
+.cell.cell-senegal {
+  background-color: white;
+}
+
+.cell.cell-guinea-bissau {
+  background-color: chartreuse;
+}
+
+.cell.cell-the-gambia {
+  background-color: purple;
+}
 
 .dialog-box {
   /* Add styles to position the dialog box */

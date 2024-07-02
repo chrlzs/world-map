@@ -3889,20 +3889,17 @@ class Globe {
   static getKenya() {
     return [
       [66, 43],
+      [66, 42],
+      [67, 42],
       [67, 43],
-      [66, 44],
-      [67, 44],
     ];
   }
 
   static getTanzania() {
     return [
+      [64, 44],
+      [65, 44],
       [65, 45],
-      [66, 45],
-      [67, 45],
-      [65, 46],
-      [66, 46],
-      [67, 46],
     ];
   }
 
@@ -4072,6 +4069,28 @@ class Globe {
   static getTunisia() {
     return [
       [59, 32],
+    ];
+  }
+
+  static getMalawi() {
+    return [
+      [64, 45],
+    ];
+  }
+
+  static getSomalia() {
+    return [
+      [69, 39],
+      [69, 38],
+      [69, 40],
+      [69, 41],  
+      [68, 41],      
+    ];
+  }
+
+  static getDjibouti() {
+    return [
+      [68, 38],
     ];
   }
 }

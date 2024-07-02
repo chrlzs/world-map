@@ -82,6 +82,15 @@ class App {
       { name: "Uganda", className: "cell-uganda" },
       { name: "Rwanda", className: "cell-rwanda" },
       { name: "Burundi", className: "cell-burundi" },
+      { name: "DemocraticRepublicOfCongo", className: "cell-democratic-republic-of-congo" },
+      { name: "RepublicOfCongo", className: "cell-republic-of-congo" },
+      { name: "Gabon", className: "cell-gabon" },
+      { name: "EquatorialGuinea", className: "cell-equatorial-guinea" },
+      { name: "Cameroon", className: "cell-cameroon" },
+      { name: "Nigeria", className: "cell-nigeria" },
+      { name: "Ghana", className: "cell-ghana" },
+      { name: "IvoryCoast", className: "cell-ivory-coast" },
+      { name: "Liberia", className: "cell-liberia" },
     ];
 
     this.tooltipElement = document.createElement("div");

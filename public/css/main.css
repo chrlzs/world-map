@@ -362,6 +362,46 @@ body {
   background-color: orange;
 }
 
+.cell.cell-democratic-republic-of-congo
+ {
+  background-color: blueviolet;
+}
+
+.cell.cell-republic-of-congo
+ {
+  background-color: white;
+}
+
+.cell.cell-gabon
+ {
+  background-color: brown;
+}
+
+.cell.cell-equatorial-guinea {
+  background-color: gray;
+}
+
+.cell.cell-cameroon {
+  background-color: indianred;
+}
+
+.cell.cell-nigeria {
+  background-color: blue;
+}
+
+.cell.cell-ghana {
+  background-color: white;
+}
+
+.cell.cell-ivory-coast {
+  background-color: pink;
+}
+
+.cell.cell-liberia {
+  background-color: blue;
+}
+
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

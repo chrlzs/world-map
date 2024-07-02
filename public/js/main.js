@@ -91,6 +91,12 @@ class App {
       { name: "Ghana", className: "cell-ghana" },
       { name: "IvoryCoast", className: "cell-ivory-coast" },
       { name: "Liberia", className: "cell-liberia" },
+      { name: "SierraLeone", className: "cell-sierra-leone" },
+      { name: "Guinea", className: "cell-guinea" },
+      { name: "Mauritania", className: "cell-mauritania" },
+      { name: "Senegal", className: "cell-senegal" },
+      { name: "GuineaBissau", className: "cell-guinea-bissau" },
+      { name: "TheGambia", className: "cell-the-gambia" },
     ];
 
     this.tooltipElement = document.createElement("div");

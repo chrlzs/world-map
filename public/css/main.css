@@ -283,6 +283,10 @@ body {
   background-color: blanchedalmond;
 }
 
+.cell.cell-japan {
+  background-color: azure;
+}
+
 .cell.cell-north-korea {
   background-color: violet;
 }

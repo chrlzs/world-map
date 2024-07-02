@@ -3979,8 +3979,11 @@ class Globe {
       [58, 33],
       [59, 33],
       [57, 33],
+      [57, 34],
       [59, 34],
       [58, 34],
+      [60, 33],
+      [60, 34]
     ];
   }
 
@@ -4175,19 +4178,25 @@ class Globe {
   static getCameroon() {
     return [
       [58, 39],
-      [58, 38]
+      [58, 38],
+      [59, 39],
+      [59, 38],
+      [60, 38],
+      [59, 37]
     ];
   }
 
   static getGhana() {
     return [
       [56, 40],
+      [56, 39]
     ];
   }
   
   static getIvoryCoast() {
     return [
       [55, 40],
+      [55, 39]
     ];
   }
 
@@ -4207,6 +4216,7 @@ class Globe {
     return [
       [53, 37],
       [54,38],
+      [55, 38]
     ];
   }
 
@@ -4233,6 +4243,56 @@ class Globe {
   static getTheGambia() {
     return [
       [54, 36],
+    ];
+  }
+  
+  static getChad() {
+    return [
+      [61, 35],
+      [61, 36],
+      [61, 37],
+      [61, 38],
+      [60, 37],
+      [60, 36],
+      [60, 35],
+    ];
+  }
+
+  static getCentralAfricanRepublic() {
+    return [
+      [62, 39],
+      [61, 39],
+      [60, 39],
+    ];
+  }
+  
+  static getNiger() {
+    return [
+      [58, 35],
+      [59, 35],
+      [58, 36],
+      [59, 36],
+      [58, 37],
+      [59, 36],
+    ];
+  }
+
+  static getMali() {
+    return [
+      [57, 35],
+      [57, 36],
+      [56, 35],
+      [56, 36],
+      [55, 36],
+      [56, 37],
+      [55, 37],
+    ];
+  }
+
+  static getBurkinaFaso() {
+    return [
+      [57, 37],
+      [56, 38],
     ];
   }
 }

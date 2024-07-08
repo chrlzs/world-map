@@ -445,6 +445,10 @@ body {
   background-color: lightslategray;
 }
 
+.cell.cell-slovania {
+  background-color: lightslategray;
+}
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;

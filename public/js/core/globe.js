@@ -4295,6 +4295,12 @@ class Globe {
       [56, 38],
     ];
   }
+
+  static getSlovania() {
+    return [
+      [61, 28],
+    ];
+  }
 }
 
 export { Globe as default };

@@ -449,10 +449,14 @@ body {
   background-color: lightslategray;
 }
 
+.cell.cell-croatia {
+  background-color: yellow;
+}
+
+
 .dialog-box {
   /* Add styles to position the dialog box */
   width: 200px;
-  display: block;
   height: 200px;
   background-color: gainsboro;
   display: none;

@@ -4301,6 +4301,13 @@ class Globe {
       [61, 28],
     ];
   }
+
+  static getCroatia() {
+    return [
+      [63, 28],
+      [64, 29],
+    ];
+  }
 }
 
 export { Globe as default };

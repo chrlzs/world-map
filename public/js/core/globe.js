@@ -4296,7 +4296,7 @@ class Globe {
     ];
   }
 
-  static getSlovania() {
+  static getSlovenia() {
     return [
       [61, 28],
     ];

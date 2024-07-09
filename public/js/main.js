@@ -102,6 +102,8 @@ class App {
       { name: "Niger", className: "cell-niger" },
       { name: "Mali", className: "cell-mali" },
       { name: "BurkinaFaso", className: "cell-burkina-faso" },
+      { name: "Slovania", className: "cell-slovenia" },
+      { name: "Croatia", className: "cell-croatia" },
     ];
 
     this.tooltipElement = document.createElement("div");
